@@ -1,0 +1,35 @@
+body{
+    background-color: orange;
+}
+h1{
+    text-align: center;
+}
+#form{
+    background-color: white;
+    width: 25%;
+    margin: 120px auto;
+    padding: 50px;
+    box-shadow: 10px 10px 5px orangered;
+    border-radius: 4px;
+}
+#btn{
+    background-color: orangered;
+    color: white;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: large;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#text{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 700px){
+    #form{
+        width: 70%;
+        padding: 40px;
+    }
+}
